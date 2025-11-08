@@ -1,6 +1,6 @@
 body {
 font-family: Aerial, san-serif ;
-line-height: .8 ;
+line-height: 1.2 ;
 }
 
 header {
@@ -29,6 +29,7 @@ text-align: center;
 img {
 width: 400px;
 height: 250px;
+margin-bottom: 20px;
 }
 footer {
 background-color: #333;
