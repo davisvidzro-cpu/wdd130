@@ -10,8 +10,9 @@ padding: 10px;
 text-align: center;
 font-size: 1.5rem;
 }
+
 main {
-  width: 300px;
+  width: 250px;
   margin: 0 auto ;
   
 }
@@ -21,7 +22,7 @@ text-align: center;
 
 }
 img {
-width: 150px;
+width: 250px;
 height: 150px;
 }
 footer {
