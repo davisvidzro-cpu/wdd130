@@ -1,6 +1,6 @@
 body {
 font-family: Aerial, san-serif ;
-line-height: 1.6 ;
+line-height: .8 ;
 }
 
 header {
@@ -19,6 +19,7 @@ margin: 0 auto ;
 main section {
 background-color: grey;
 padding: 15px;
+
 }
 h1 {
 margin: 10px;
