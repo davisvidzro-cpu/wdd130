@@ -18,8 +18,8 @@ margin: 0 auto ;
 }
 main section {
 background-color: #abe;
-padding: 15px;
-margin-bottom: 20px;
+padding: 10px;
+margin: 20px 0;
 border: 1px solid;
 font-size: .9rem;
 }
