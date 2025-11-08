@@ -19,9 +19,15 @@ margin: 0 auto ;
   
 }
 main section {
-background-color: #f0f0f0;
+background-color: #abe;
 padding: 15px;
 margin-bottom: 20px;
+border: 1px solid;
+font-size: .9rem;
+}
+
+section p{
+margin: 10px;
 }
 h1 {
 margin: 10px;
@@ -29,9 +35,13 @@ text-align: center;
 
 }
 img {
-width: 500px;
-height: 300px;
+width: 100%;
+height: auto;
 margin-bottom: 20px;
+box-shadow: 0 0 30 #333;
+}
+ul{
+margin: 10px;
 }
 footer {
 background-color: #333;
