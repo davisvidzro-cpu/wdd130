@@ -120,13 +120,13 @@ nav ul {
 
 /* Navigation link styling */
 nav a {
-  color: var(--accent2-color);
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: var(--secondary-color);
+  color: var(--accent2-color);
 }
 
 /* Footer styling - Grid layout with right-aligned social icons */
