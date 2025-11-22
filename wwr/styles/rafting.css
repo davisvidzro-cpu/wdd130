@@ -88,19 +88,25 @@ h1 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styling */
+/* Header styling - Using CSS Grid */
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
   padding: 16px;
+  gap: 20px;
 }
 
 /* Logo styling */
 header img {
   height: 80px;
-  margin-right: 20px;
+}
+
+/* Navigation - Using Flexbox */
+header nav {
+  justify-self: end;
 }
 
 /* Navigation list styling */
@@ -108,6 +114,8 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navigation link styling */
@@ -121,21 +129,30 @@ nav a:hover {
   color: var(--secondary-color);
 }
 
-/* Footer styling */
+/* Footer styling - Grid layout with right-aligned social icons */
 footer {
   background-color: var(--accent1-color);
   color: #fff;
   padding: 20px;
-  text-align: center;
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 20px;
 }
 
-/* Social media icons */
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Social media icons - aligned to the right */
 .socialmedia {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 10px;
+  justify-content: flex-end;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 .socialmedia img {
@@ -148,4 +165,67 @@ section {
   background-color: #f9f9f9;
   border-left: 4px solid var(--primary-color);
   margin-top: 20px;
+}
+
+/* History Section - Grid Layout */
+.history h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.history-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.history-content p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Adventures Section - Horizontal Flex Layout */
+.adventures h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.adventure-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.adventure-gallery figure {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.adventure-gallery img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.adventure-gallery figcaption {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: var(--accent1-color);
+  font-weight: bold;
 }
